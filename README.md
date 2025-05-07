@@ -17,10 +17,10 @@ This project cleans the Titanic dataset, loads it into a SQLite database, and ge
 - SQL queries: `queries.sql`
 - Visualizations:
   - Survival rate by gender: ![Survival by Gender](survival_by_gender.png)
-  - Age distribution: ![Age Distribution](age_distribution.png)
+  - Age distribution (30 is the mean age which is used to fill empty values, creating peak): ![Age Distribution](age_distribution.png)
 
 ## Stakeholder Note
-This pipeline ensures clean, reliable data for survival analysis, enabling business teams to identify key trends (e.g., higher survival rates for females).
+This pipeline ensures clean, reliable data for survival analysis, enabling teams to identify key trends (e.g., higher survival rates for females).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
