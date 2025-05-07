@@ -2,11 +2,9 @@
 # Licensed under the MIT License. See LICENSE file in the repository root.
 
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sqlite3
-from sqlite3 import Error
 
 # Read in the csv file
 df = pd.read_csv('train.csv')
@@ -42,7 +40,7 @@ plt.savefig('survival_by_gender.png')
 plt.close()
 
 # Histogram: Age distribution
-plt.hist(df['Age'], bins=20)
+plt.hist(df['Age'], bins=50)
 plt.title('Age Distribution')
 plt.xlabel('Age')
 plt.ylabel('Count')
